@@ -38,7 +38,7 @@ else:
     score = round(accuracy_score(y_pred, y_test), 2)
 
     st.write(
-        f"""We trained a Random Forest model on these
+        f"""Clay trained a Random Forest model on these
         data, it has a score of {score}! Use the
         inputs below to try out the model"""
     )
